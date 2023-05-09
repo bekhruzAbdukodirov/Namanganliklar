@@ -1,0 +1,497 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik';
+    font-family: 'Roboto';
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    border-top: 4px solid #295093;
+    padding-top: 40px;
+    padding-bottom: 23px;
+    display: flex;
+    align-items: center;
+    background: #F6F6F9;
+    margin-bottom: 22px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.Namanganliklar24 {
+    background-color: #FFFFFF;
+    padding: 4px 8px;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+}
+
+.currency-news {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 17px;
+}
+
+.currency-news-uzb {
+    margin-right: 25px;
+}
+
+.icons {
+    color: #285193;
+}
+
+.amount-of-money {
+    color: grey;
+}
+
+.header-top-button {
+    margin-left: auto;
+    display: flex;
+}
+
+.button-lupa {
+    padding: 8px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    margin-right: 22px;
+    transition: all ease 0.5s;
+}
+
+.button-lupa:hover {
+    background: transparent;
+    border: 1px solid black;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.flag-ru {
+    padding: 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    border: none;
+    margin-right: 24px;
+    transition: all ease 0.5s;
+}
+
+.flag-ru:hover {
+    transition: transparent;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+
+.flag-ru-img {
+    border-radius: 18px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.flag-ru-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #535353;
+}
+
+.telegram-messenger {
+    background-image: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: all ease 0.5s;
+}
+
+.telegram-messenger:hover {
+    background: transparent;
+    background: #37AEE2;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.telegram-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.telegram-img {
+    margin-right: 7px;
+}
+
+.header-bottom {
+
+}
+
+.header-bottom-news {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    justify-content: space-between;
+    padding: 21px 24px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.type-of-news {
+    list-style: none;
+    transition: ease 0.3s;
+}
+
+.news-about {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #535353;
+}
+
+.news-about-active {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #535353
+}
+
+.news-about:hover {
+    color: #295093;
+    transition: ease 0.5s;
+}
+
+.news-about-active:hover {
+    color: #295093;
+    border-radius: 5px;
+}
+
+.news-about-active:active {
+    color: #295093;
+    background: #295093;
+    border: 1px solid #295093;
+    border-radius: 5px;
+}
+
+.banner-img {
+    margin-bottom: 22px;
+}
+
+
+
+.section1 {
+
+}
+
+.main-news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.important-news-left {
+    width: 69%;
+    margin-bottom: 38px;
+}
+
+.important-news-left-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 13px;
+}
+
+.important-news-left-data-text {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.important-news-data {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+}
+
+.important-news-left-img {
+    margin-bottom: 17px;
+}
+
+.important-news-bold-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.important-news-text:not(:last-child) {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+.important-news-links {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #28508E;
+    margin-right: 10px;
+}
+
+
+.popular-news-advertising {
+    width: 386px;
+}
+
+.popular-news {
+    background: #F6F6F9;
+    border-radius: 5px;
+    padding: 17px 20px;
+    margin-bottom: 20px;
+}
+
+.popular-news-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+    margin-bottom: 6px;
+}
+
+.popular-news-list {
+    list-style: none;
+}
+
+.popular-news-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    margin-bottom: 11px;
+}
+
+.popular-news-link {
+    text-decoration: none;
+    color: #202020;
+}
+
+.popular-news-date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+}
+
+.popular-news-item:not(:last-child) {
+    padding-bottom: 14px;
+    border-bottom: 4px solid #E4E4E4;
+    margin-bottom: 18px;
+}
+
+.ucell-banner-img {
+    border-radius: 5px;
+}
+
+.section2 {
+   
+}
+
+.releted-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+
+.news-card {
+    width: 32%;
+}
+
+.news-card-img {
+    width: 100%;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 11px;
+}
+
+.img {
+    margin-right: 20px;
+}
+
+.news-card-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    margin-bottom: 11px;
+}
+
+.news-card-data {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B6D97;
+    margin-bottom: 18px;
+}   
+
+.news-card-data-2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B6D97;
+}
+
+.footer {
+    background: #295093;
+    padding: 18px;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+}
+
+.footer-link {
+    margin-right: auto;
+    background: #133C82;
+    border-radius: 5px;
+    padding: 12px 12px 6px 9px;
+}
+
+.footer-text-top {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 17px;
+}
+
+.telegram-messenger-footer {
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 9px;
+}
+
+.telegram-text-blue {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+    margin-right: 5px;
+    transition: all ease 0.5s;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.about-site {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-bottom-heading {
+    margin-bottom: 15px;
+}
+
+.footer-bottom-text {
+    margin-bottom: 13px;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.other-links {
+    margin-left: 111px;
+}
+
+.list-of-links {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.links-type {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.other-links2 { 
+    margin-left: 115px;
+}
+
+.list-of-links2 {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.links-type2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.footer-line {
+    margin-bottom: 12px;
+}
+
+.footer-line-img {
+    height: 3px;
+}
+
